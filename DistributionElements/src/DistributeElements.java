@@ -99,7 +99,7 @@ class DistributeElements {
         Length = 2;
         Width = 6;
 
-        // Получаем таблицу с результатом
+        // Получаем таблицу с результатом1
         ResultTable = CreateDistribution(Length, Width);
 
         // Выводим результат на экран
