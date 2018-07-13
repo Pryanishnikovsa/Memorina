@@ -16,9 +16,9 @@ public class TestFrame {
         Image image;
         JFrame frame = new JFrame("Test frame");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        ImageIcon icon = new ImageIcon(this.getClass().getResource("/ball.gpg"));
+        //ImageIcon icon = new ImageIcon(this.getClass().getResource("/ball.gpg"));
         //icon.setImage();
-        //ImageIcon icon = new ImageIcon("C:\\temp/ball.jpg");
+        ImageIcon icon = new ImageIcon("C:\\temp/ball.jpg");
 
         // POSITION OF THE PICTURE1
 

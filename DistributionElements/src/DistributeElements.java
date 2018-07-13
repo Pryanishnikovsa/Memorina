@@ -3,7 +3,7 @@ import java.util.*;
 
 class DistributeElements {
 
-    private static int[][] CreateDistribution(int Length, int Width)
+    public static int[][] CreateDistribution(int Length, int Width)
     {
         int dimension;
         int a,b,c,Random; // Счетчики циклов
@@ -90,26 +90,26 @@ class DistributeElements {
         return ResultTable;
     }
 
-    public static void main(String[] args) {
-        int[][] ResultTable; // Двумерный массив с результатом
-        int Length, Width; // Переменные длина и ширина поля
-        int a,b; // Счетчики циклов
+    //public static void main(String[] args) {
+    //    int[][] ResultTable; // Двумерный массив с результатом
+    //    int Length, Width; // Переменные длина и ширина поля
+    //    int a,b; // Счетчики циклов
 
         // Задаем длину и ширину доски
-        Length = 2;
-        Width = 6;
+    //    Length = 2;
+    //    Width = 6;
 
         // Получаем таблицу с результатом1
-        ResultTable = CreateDistribution(Length, Width);
+    //    ResultTable = CreateDistribution(Length, Width);
 
         // Выводим результат на экран
-        for(a=0; a <= Length-1; a++){
-            for(b=0; b <= Width-1; b++){
-                System.out.print(ResultTable[a][b] + ";");
-            }
-            System.out.println("");
-        }
-    }
+    //    for(a=0; a <= Length-1; a++){
+    //        for(b=0; b <= Width-1; b++){
+    //            System.out.print(ResultTable[a][b] + ";");
+    //        }
+    //        System.out.println("");
+    //    }
+//    }
 
 
 
