@@ -38,7 +38,7 @@ public class Game extends JFrame {
                 button[b].setName(Integer.toString(i) + Integer.toString(c));
                 fr.getContentPane().add(button[b]);
                 button[b].addActionListener(new ActionListener() {
-               //     @Override
+               //   @Override
                     public void actionPerformed(ActionEvent e) {
                         int x;
 
