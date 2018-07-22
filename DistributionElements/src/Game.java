@@ -67,6 +67,6 @@ public class Game extends JFrame {
                 }
                 System.out.println("");
             }
-            
+
     }
 }

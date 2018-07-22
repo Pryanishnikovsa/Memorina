@@ -23,7 +23,7 @@ public class TestFrame {
         // POSITION OF THE PICTURE1
 
         JButton leftButton = new JButton("qwe", icon);
-        //leftButton.setIcon(icon);
+        //leftButton.setIcon(icon);123
         showIcon(leftButton, icon);
         frame.getContentPane().add(leftButton);
 
